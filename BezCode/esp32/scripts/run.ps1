@@ -1,0 +1,2 @@
+scripts/upload
+scripts/repl
