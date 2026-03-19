@@ -1,8 +1,17 @@
 # Real-Time Indoor Navigation
-## Запуск
+
+Веб-приложение для реального времени indoor-навигации, разработанное в рамках хакатона. Система определяет местоположение внутри зданий с помощью Bluetooth-маячков (beacons) и строит маршруты, отображая их на интерактивной карте.
+
+## Стек технологий
+- **Бэкенд**: Python, Paho MQTT
+- **Фронтенд**: Streamlit
+- **Аппаратная часть**: ESP32, MicroPython, BLE
+- **Инфраструктура**: Docker, Docker Compose
+
+## Запуск проекта
 ### Основная часть
 ```
-docker-compose -f BezCode/docker-compose.yml up --build -d # убедитесь что запущен docker-desktop
+docker-compose up --build -d # убедитесь что запущен docker-desktop
 ```
 ### ESP устройство
 ```
